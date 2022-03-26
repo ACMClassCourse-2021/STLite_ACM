@@ -50,9 +50,9 @@ public:
 		// About value_type: https://blog.csdn.net/u014299153/article/details/72419713
 		// About iterator_category: https://en.cppreference.com/w/cpp/iterator
 		using difference_type = std::ptrdiff_t;
-		using value_type = T;
-		using pointer = T*;
-		using reference = T&;
+		using value_type = map::value_type;
+		using pointer = value_type*;
+		using reference = value_type&;
 		using iterator_category = std::output_iterator_tag;
 		// If you are interested in type_traits, toy_traits_test provides a place to 
 		// practice. But the method used in that test is old and rarely used, so you
