@@ -1,8 +1,8 @@
 /**
  * implement a container like std::linked_hashmap
  */
-#ifndef SJTU_MAP_HPP
-#define SJTU_MAP_HPP
+#ifndef SJTU_LINKEDHASHMAP_HPP
+#define SJTU_LINKEDHASHMAP_HPP
 
 // only for std::equal_to<T> and std::hash<T>
 #include <functional>
