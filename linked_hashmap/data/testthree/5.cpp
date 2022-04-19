@@ -108,8 +108,8 @@ bool check4(){//const_iterator
 		cout<< it -> first<<" "<<(*it).second<<'\n';
 	}
 	itt = --Q.cend();
-	if(it == itt) return 0;
-	return 1;
+	if(it == itt) return 1;
+	return 0;
 }
 
 bool check5(){// insert && remove 
